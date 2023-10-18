@@ -1,0 +1,113 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 60vw;
+    height: 80vh;
+    margin: 70px;
+    box-shadow: 10px 10px 20px rgb(70, 66, 66);
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: 100%;
+}
+.display-side{
+    width: 100%;
+    height: 20%;
+    /* border: 1px sold green; */
+    margin: 0;
+    padding: 0;
+}
+.display-side input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid rgb(137, 135, 135);
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.keypad-side{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    gap: 2px;
+    width: 100%;
+    height: 80%;
+}
+.keypad-side button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.keypad-side button:hover{
+    outline: 2px solid red;
+    color: grey;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.reset-btn{
+width: 100%;
+height: 20%;
+}
+.reset{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20,149,136);
+    color: white;
+    border: none;
+    font-size:36px ;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.reset:hover{
+    background-color: rgb(3, 116, 104);
+    color: grey;
+}
+.operation-btn{
+    display: grid;
+    grid-template-columns: repeat(1,auto) ;
+    gap: 2px;
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid green; */
+}
+.operation-btn button{
+    background-color:rgb(116,116,116);
+    color: white;
+    border-radius:10px ;
+    font-size: 40px;
+    border: none;
+}
+.operation-btn button:hover{
+    background-color:rgb(69, 68, 68);
+}
