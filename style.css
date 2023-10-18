@@ -13,10 +13,12 @@ main{
     align-items: center;
     gap: 2px;
     /* border: 1px solid red; */
-    background-color: white;
+    background-color: antiquewhite;
     width: 60vw;
     height: 80vh;
     margin: 70px;
+    padding: 5px;
+    border-radius: 5px;
     box-shadow: 10px 10px 20px rgb(70, 66, 66);
 }
 .left-side{
@@ -40,7 +42,7 @@ main{
     width: 100%;
     height: 100%;
     outline: none;
-    border: 1px solid rgb(137, 135, 135);
+    border: 3px solid rgb(137, 135, 135);
     border-radius: 10px;
     font-size: 50px;
     font-weight: 600;
